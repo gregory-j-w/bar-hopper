@@ -1,0 +1,140 @@
+//...........................STUFF ON ALL PAGES
+
+@orange: rgb(234,26,26);
+@gray: rgb(50,50,50);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: @gray;
+}
+
+button {
+  background: @orange;
+  text-shadow: 2px 2px 3px @gray;
+  box-shadow: 0px 1px 3px @gray;
+  font-family: sans;
+  color: #ffffff;
+  font-size: 45px;
+  justify-content: center;
+  width: 400px;
+}
+
+button:hover {
+  background: @orange;
+  text-decoration: none;
+  color: @gray;
+}
+
+.container.body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.container-left,
+.container-right {
+  flex: 1 1 auto;
+  align-self: auto;
+}
+
+.container-main {
+  flex: 0 0 auto;
+  align-self: auto;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-height: 750px;
+}
+
+.wordlogo {
+  flex: 0 0 auto;
+  align-self: auto;
+  margin: 200px 0 150px 0;
+}
+
+.main {
+  flex: 0 0 auto;
+  align-self: auto;
+  margin-bottom: 350px;
+  ul {
+    list-style: none;
+  }
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.display {
+  flex: 0 0 auto;
+  align-self: center;
+  margin-bottom: 100px;
+}
+
+.login {
+  flex: 0 0 auto;
+  align-self: center;
+  ul {
+    list-style: none;
+  }
+}
+
+input {
+  align-content: center;
+  width: 350px;
+  height: 50px;
+  font-size: 24px;
+  margin: 15px 0 15px 25px;
+  background-color: white;
+}
+
+#loginSubmit {
+  margin: 20px 0 20px 0;
+}
+
+#registerSubmit {
+  margin: 10px 0 0 0;
+}
+
+.footer {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.footer p {
+  color: white;
+}
+
+//...........................LOGIN & REGISTER
+
+
+//...........................SEARCH & ASSIGN
+
+
+//...........................SEARCH
+
+
+//...........................ASSIGNMENT
+
+
+.hidden{
+  display: none;
+}
